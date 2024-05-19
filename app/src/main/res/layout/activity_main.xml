@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btn"-->
+<!--        style="@style/Widget.Material3.Button.Icon"-->
+<!--        android:layout_width="64dp"-->
+<!--        android:layout_height="64dp"-->
+<!--        app:icon="@drawable/ic_trash"-->
+<!--        android:insetBottom="0dp"-->
+<!--        android:insetTop="0dp"-->
+<!--        app:iconSize="24dp"-->
+<!--        app:iconGravity="textEnd"-->
+<!--        android:backgroundTint="@color/iconButton"-->
+<!--        />-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textField"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="32dp"-->
+<!--        android:layout_below="@+id/btn"-->
+<!--        android:hint="@string/address">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textview.MaterialTextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="45dp"-->
+<!--        android:padding="30dp"-->
+<!--        android:textSize="40sp"-->
+<!--        android:background="#70F4E773"-->
+<!--        android:text="Hello"/>-->
+
+
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_margin="32dp"-->
+<!--        app:icon="@drawable/ic_add"-->
+<!--        app:cornerRadius="50dp"-->
+<!--        android:text="New"/>-->
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        android:textSize="64sp"
+        android:text="@string/hello"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_flag"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ok"/>
+
+        <View
+            android:layout_width="32dp"
+            android:layout_height="0dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cancel"
+            app:strokeWidth="4dp"
+            app:strokeColor="@color/colorPrimary"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
