@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panel_margin">64dp</dimen>
+    <dimen name="avatar_name_size">30sp</dimen>
+    <dimen name="money_size">48sp</dimen>
+    <dimen name="avatar_image_size">120dp</dimen>
+</resources>

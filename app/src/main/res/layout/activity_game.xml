@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_image_size"
+        android:layout_height="@dimen/avatar_image_size"
+        android:layout_marginTop="@dimen/panel_margin"
+        android:layout_marginStart="@dimen/panel_margin"
+        android:scaleType="centerCrop"
+        android:elevation="8dp"
+        app:shapeAppearanceOverlay="@style/circleImageView"
+        app:srcCompat="@drawable/img_avatar"
+        />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatar"
+        android:layout_alignTop="@id/avatar"
+        android:layout_marginStart="8dp"
+        android:textSize="@dimen/avatar_name_size"
+        android:text="User name"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatar"
+        android:layout_alignBottom="@id/avatar"
+        android:textSize="@dimen/money_size"
+        android:textColor="#41D347"
+        android:text="1000$"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingVertical="48dp"
+        android:textSize="24sp"
+        android:background="#445566"
+        android:textColor="#FBFBFB"
+        android:gravity="center"
+        android:text="next week"/>
+
+
+</RelativeLayout>
