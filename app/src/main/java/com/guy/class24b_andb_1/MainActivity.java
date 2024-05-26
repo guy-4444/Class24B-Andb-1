@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
 //        textField = findViewById(R.id.textField);
 //        btn = findViewById(R.id.btn);
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toggleError();
-            }
-        });
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                toggleError();
+//            }
+//        });
     }
 
     private void toggleError() {

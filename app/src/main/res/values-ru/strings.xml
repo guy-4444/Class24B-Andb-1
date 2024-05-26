@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Class24B-Andb-1</string>
-    <string name="address">כתובת</string>
-    <string name="hello">שלום</string>
+
+    <string name="address">fgfg</string>
+    <string name="hello"></string>
     <string name="back">חזור</string>
-    <string name="home">בית</string>
+    <string name="home">Dom</string>
 
 </resources>
